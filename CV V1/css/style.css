@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Rubik:wght@300;400;500&display=swap');
+*{
+    font-family: 'rubik', Impact, Arial;
+    margin: 0;
+}
+.header{
+    background:url(../img/header.jpg);
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+}
+.en-tete{
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+.titre{
+    display: block;
+}
+
+.nav-header{
+    margin-top: 5%;
+    display: block;
+}
+.en_tete{
+    color:coral;
+    font-size: 2em;
+}
+.en_tete a{
+    text-decoration: none;
+    color: coral;
+}
+p{
+    font-size: 1.2em;
+    padding-top: 12px;
+    margin-bottom: 10px;
+}
+h2{
+    padding: 4% 0 1% 0;
+    margin-top: 20px;
+    font-size: 2em;
+    position: relative;
+}
+h2::before{
+    content: "";
+    position: absolute;
+    background-color:grey;
+    width: 70px;
+    height: 5px;
+    bottom: 0;
+}
+h3{
+    font-size: 1.7em;
+    margin-top: 5%;
+}
+h4{
+    font-size: 1.3em;
+    margin-top: 1%;
+}
+.normal a{
+    color:black;
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 12px;
+    margin-bottom: 80px;
+    position: relative;    
+}
+.normalstrong a{
+    color:black;
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 12px;
+    margin-bottom: 20px;
+    background-color: coral;
+    border-radius: 30px;
+}
+.normalstrong a:hover{
+    color: azure;
+}
+
+.normalh3 a{
+    text-decoration: none;
+    color: black;
+}
+.normalli a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color:coral;
+}
+.envie a:hover{
+    color:white;
+}
+a:focus{
+    border: 2px solid #494c4d;
+    border-radius: 5px;
+}
+.experience-formation{
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 1%;
+    background-color:#6e6e6c60;
+    border-radius: 100px;   
+}
+.envie{
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 1%;
+    background-color:coral;
+    border-radius: 80px;
+}
+footer{
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 2%;
+}
+
+/* page contact*/
+.titre-contact{
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 0.5%;
+    margin-top: -1.5%;
+    margin-bottom: 1%;
+}
+iframe{
+    height: 1150px;
+    width: 50%;
+    border: none;
+    margin-left: 25%;
+    margin-bottom: 1%;
+
+}
+.linkedin{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+.linkedin h3{
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: 300;
+    font-family: 'bungee shade', impact;
+}
+.linkedin a{
+    text-decoration: none;
+    color: black;
+    font-family: 'bungee shade', impact;
+}
+.linkedin a:hover{
+    text-decoration: none;
+    color: coral;
+}
+@media screen and (max-width: 1180px){
+    .experience-formation{
+        background-color: #6e6e6c60;
+        border-radius: 50px;
+        font-size: 0.8em;
+        margin: 0 2% 10% 2%;
+        padding: auto;
+    }
+    .envie{
+        background-color: coral;
+        border-radius: 50px;
+        font-size: 0.8em;
+        margin: 0 2% 10% 2%;
+        padding: auto;  
+    }
+    h2{
+        padding: 4% 0 1% 0;
+        margin-top: 25px;
+        font-size: 2em;
+        position: relative;
+    }
+    h2::before{
+        content: "";
+        position: absolute;
+        background-color:grey;
+        width: 60px;
+        height: 5px;
+        bottom: 0;
+    }
+    
+    .contactez-moi{
+        font-size: 0.8em;
+        margin: 0;
+        padding: 0;
+    }
+    .titre-contact{
+        margin: auto;
+        margin-bottom: 5%;
+        padding: auto;
+    }
+    iframe{
+        margin: 0 auto;
+        padding: 0 auto;
+        width: 100%;
+        height: 1200px;
+    }
+    .linkedin{
+        margin : 0 auto;
+        padding : 0 auto;          
+    }
+}
